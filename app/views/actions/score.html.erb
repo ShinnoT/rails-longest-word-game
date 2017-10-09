@@ -1,0 +1,11 @@
+<h1>Actions#score</h1>
+<p>Find me in app/views/actions/score.html.erb</p>
+
+
+<p>Your word: <%= @attempt %></p>
+<p>Time taken to answer: <%= @result[:time] %></p>
+<p>Your score: <%= @result[:score] %></p>
+<p>Message: <%= @result[:message] %></p>
+
+
+<%= link_to "guess again", game_path %>
